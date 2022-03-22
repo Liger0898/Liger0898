@@ -1,0 +1,25 @@
+GO TO website https://afmfe16.att.com/
+and no Vulnerable to directory but increpted certificate 
+
+
+
+
+
+
+
+
+
+use auxiliary/scanner/http/dir_listing
+msf6 auxiliary(scanner/http/dir_listing) > show options
+
+Module options (auxiliary/scanner/http/dir_listing):
+
+  
+
+[-] The connection was refused by the remote host (192.168.43.185:80).
+[*] NOT Vulnerable to directory listing http://192.168.43.185:80/home/krushna/Desktop/file.txt/
+[*] NOT Vulnerable to directory listing http://35.229.77.219:80/home/krushna/Desktop/file.txt/
+[*] Scanned 2 of 2 hosts (100% complete)
+[*] Auxiliary module execution completed 
+ 
+
